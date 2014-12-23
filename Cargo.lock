@@ -1,0 +1,18 @@
+[root]
+name = "proc_world"
+version = "0.0.1"
+dependencies = [
+ "image 0.2.0-alpha.4 (git+https://github.com/PistonDevelopers/image)",
+ "noise 0.0.3 (git+https://github.com/bjz/noise-rs)",
+]
+
+[[package]]
+name = "image"
+version = "0.2.0-alpha.4"
+source = "git+https://github.com/PistonDevelopers/image#d0071beb32b71d74c141a641c1e382661a083ec3"
+
+[[package]]
+name = "noise"
+version = "0.0.3"
+source = "git+https://github.com/bjz/noise-rs#ff440b8a07cd5528785be34c293f674bfc61a078"
+
